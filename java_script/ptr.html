@@ -1,0 +1,42 @@
+<html>
+<head>
+<title> webpage development </title>
+<style>
+    table,tr,th,td{
+	    border:1px solid black;
+		border-collapse: collapse;
+		text-align: center;
+		padding: 15px;
+	}
+	table{
+	    width: 50%;
+		margin: auto;
+	}
+</style>
+</head>
+<body>
+    <table>
+	    <caption><b> Interest Calculator </b></caption>
+		<tr>
+		    <th>Principle</th>
+			<th>Intereset rate</th>
+			<th>interest amount</th>
+        </tr>
+		<tr>
+		    <td id="Principle"></td>
+			<td id="rate"></td>
+			<td id="amount"></td>
+        </tr>
+    </table>		
+			
+    <script>
+var principle=prompt("Enter Principle Amount");
+var interest=prompt("Enter Rate of Interest");
+
+     var amt = (principle*interest)/100;
+document.getElementById("Principle").innerHTML=principle;
+document.getElementById("rate").innerHTML=interest;
+document.getElementById("amount").innerHTML=amt;
+    </script>
+</body>
+</html>

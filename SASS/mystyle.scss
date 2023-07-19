@@ -1,0 +1,14 @@
+/* Define standard variables and values for website */
+$textcolor: lightblue;
+
+
+/* Use the variables */
+body {
+  color: $textcolor;
+  font-size: 20px;
+}
+
+h2 {
+  color: $textcolor;
+  font-size: 10px;
+}

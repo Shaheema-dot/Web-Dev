@@ -1,0 +1,12 @@
+/* Use the variables */
+div {
+  div p {
+    color: green;
+    font-size: 20px;
+  }
+  div li {
+    color: green;
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=mystyle.css.map */
